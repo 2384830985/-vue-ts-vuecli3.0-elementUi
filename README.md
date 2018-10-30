@@ -55,5 +55,15 @@ module.exports = {
 }
 ```
 
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+vue ui
+```
+
 <!--![项目结构](https://user-gold-cdn.xitu.io/2018/10/14/1667229711a67e0f?w=502&h=1086&f=png&s=107921)-->
 <!-->
