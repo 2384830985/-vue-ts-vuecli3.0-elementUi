@@ -9,7 +9,13 @@
 ## 1.VueCLI 3.0
 [VueCLI 3.0](https://cli.vuejs.org/zh/guide/)
 基础的可以自己尝试一下建议加上ts，这样会特别舒服，
-福利送上vue.config的所有配置虽然cli上面都有
+分装了图片上传，
+以及有赞喜欢的table，
+分页的使用，
+ts富文本编译器（这个是重点），
+重制按钮的复用，
+基础表单验证，
+福利送上vue.config的所有配置虽然cli上面都有 （作为一个菜鸡毕竟经历众多项目可以给一些新手一点提示 QQ764506248备注（github进来的））
 
 ```
 // vue.config.js
