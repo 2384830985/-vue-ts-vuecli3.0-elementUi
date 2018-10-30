@@ -1,0 +1,129 @@
+
+$subMenuBg:#1f2d3d;
+$menuHover:#001528;
+// 导航主色调
+$menuBg:#444;
+$bodyBy:#f2f2f2;
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: $bodyBy;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div:focus{
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+.app-main{
+  min-height: 100%
+}
+
+.app-container {
+  padding: 20px;
+}
+.t-p-content-10{
+  background: white;
+  border: none;
+  margin: 10px 10px 0;
+}
+.t-container{
+  padding: 15px;
+  min-width: 750px;
+  min-height: 500px;
+  //-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.2);
+  //box-shadow: 0 0 1px 0 rgba(0,0,0,.2);
+  //background: white;
+}
+.t-search-content{
+  background: #f8f8f8;
+  padding: 20px 15px;
+}
+.t-mini-buttom{
+  margin-bottom: 15px
+}
+.w-100{
+  width: 100%;
+}
+.w-80{
+  width: 80%;
+}
+.el-form-item__label {
+  display: inline-block;
+  width: 120px;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: right;
+  vertical-align: top;
+  font-weight: 400
+}
+.el-input--mini .el-input__inner {
+  height: 30px;
+  max-height: 36px;
+  display: inline-block;
+  min-width: 80px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 0;
+  border: 1px solid #bbb;
+  color: #333;
+  font-size: 12px;
+  border-radius: 2px;
+  box-shadow: none;
+  transition: border .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+  appearance: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 5px 20px 5px 10px;
+}
+.el-input__prefix{
+  display: none
+}
+.w-460{
+  width: 460px;
+}
