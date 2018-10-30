@@ -59,10 +59,10 @@ module.exports = {
 
 ``` bash
 # install dependencies
-npm install
+npm install //下载依赖
 
 # serve with hot reload at localhost:8080
-vue ui
+vue ui //用vue cli3脚手架下载工具去视图画下载依赖（以及打包运行）
 ```
 
 <!--![项目结构](https://user-gold-cdn.xitu.io/2018/10/14/1667229711a67e0f?w=502&h=1086&f=png&s=107921)-->
