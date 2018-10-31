@@ -5,7 +5,6 @@
 
 >判断是否可以使用ts+vue是否支持[链接](https://microsoft.github.io/TypeSearch/)
 
->[预览效果地址](https://2384830985.github.io/vue-ts-vuecli3.0-elementUi/webApp/index.html#/login) 账 tangjinxin/密123456  [github](https://github.com/2384830985/vue-ts-vuecli3.0-elementUi)
 ## 1.VueCLI 3.0
 [VueCLI 3.0](https://cli.vuejs.org/zh/guide/)
 基础的可以自己尝试一下建议加上ts，这样会特别舒服，
