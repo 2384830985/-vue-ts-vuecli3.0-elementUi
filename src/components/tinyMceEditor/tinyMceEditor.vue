@@ -22,13 +22,13 @@
         // 初始值
         public initialVal:any = '';
         public editorInit:any = {
-            language_url: '/static/zh_CN.js',
+            language_url: './static/zh_CN.js',
             language: 'zh_CN',
             selector: 'textarea',
-            skin_url: '/static/skins/lightgray',
+            skin_url: './static/skins/lightgray',
             height: 300,
             // width:600,
-            images_upload_url: 'https://api.iyuedian.com/iyd-imall-manage/imall/v1/upload',
+            images_upload_url: 'https://api.uat.iyuedian.com/iyd-imall-manage/imall/v1/upload',
             plugins: 'link lists image code table colorpicker textcolor wordcount contextmenu',
             toolbar: 'bold italic underline strikethrough | fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote | undo redo | link unlink image code | removeformat',
             images_upload_handler: function (blobInfo:any, success:any, failure:any) {
