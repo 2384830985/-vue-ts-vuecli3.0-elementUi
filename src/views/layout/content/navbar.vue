@@ -112,28 +112,37 @@
         <!-- 第一级导航 -->
         <div class="t-container-one">
             <div class="t-container-logo"></div>
-            <div v-for="item in content" :key="item.id" v-if="item.children[0]" class="t-user-info">
-                <a tag="div" :href="'/#'+item.url">
-                    <div :class="item.url===matchedChang?'t-user-info-active':'t-user-test'">
-                        <i :class="item.icon"></i>
-                        <span>&nbsp;{{item.oldname}}</span>
-                    </div>
-                </a>
-            </div>
-            <!-- <div class="t-user-info">
+            <!--<div v-for="item in content" :key="item.id" v-if="item.children[0]" class="t-user-info">-->
+                <!--<a tag="div" :href="'/#'+item.url">-->
+                    <!--<div :class="item.url===matchedChang?'t-user-info-active':'t-user-test'">-->
+                        <!--<i :class="item.icon"></i>-->
+                        <!--<span>&nbsp;{{item.oldname}}</span>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+            <div class="t-user-info">
                 <a tag="div" :href="'/#/system'">
-                    <div :class="'system'==matchedChang?'t-user-info-active':'t-user-test'">
+                    <div class="t-user-info-active">
                         <i class="el-icon-printer"></i>
                         <span>&nbsp;系统</span>
                     </div>
                 </a>
-            </div> -->
+            </div>
         </div>
         <!-- 第二级导航 -->
-        <div class="t-container-tow" v-for="item in content" :key="item.id" v-if="item.url===matchedChang">
-            <div class="t-container-header">{{item.name}}</div>
+        <!--<div class="t-container-tow" v-for="item in content" :key="item.id" v-if="item.url===matchedChang">-->
+            <!--<div class="t-container-header">{{item.name}}</div>-->
+            <!--<nav class="t-container-content" >-->
+                <!--<router-link tag="div" class="t-container-list" v-for="items in item.children" :key="items.id" :to="items.url">{{items.name}}</router-link>-->
+                <!--&lt;!&ndash; <div class="t-container-list">商品导入</div> &ndash;&gt;-->
+            <!--</nav>-->
+        <!--</div>-->
+        <div class="t-container-tow">
+            <div class="t-container-header">系统</div>
             <nav class="t-container-content" >
-                <router-link tag="div" class="t-container-list" v-for="items in item.children" :key="items.id" :to="items.url">{{items.name}}</router-link>
+                <router-link tag="div" class="t-container-list" to="/system/permission">权限列表</router-link>
+                <router-link tag="div" class="t-container-list" to="/system/permissionAdd">新增列表</router-link>
+                <router-link tag="div" class="t-container-list" to="/system/user">用户列表</router-link>
                 <!-- <div class="t-container-list">商品导入</div> -->
             </nav>
         </div>

@@ -5,8 +5,7 @@ import { getToken } from '@/views/utils/auth';
 const httpServer = (opts: any) => {
         const httpDefaultOpts = { // http默认配置
             method: opts.method,
-            // baseURL: 'https://api.iyuedian.com/iyd-imall-manage/imall/v1',  // 线上
-            baseURL: 'https://api.uat.iyuedian.com/iyd-imall-manage/imall/v1',  // 测试
+            baseURL: 'https://xxxx.com',  // 测试
             url: opts.url,
             timeout: 100000,
             params: opts.params,
