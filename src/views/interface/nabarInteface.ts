@@ -6,7 +6,7 @@ import Http from '@/views/aixo/http';
  */
 export const manageSysRoleMenuUserId = (userId: any) => {
     return Http({
-        url: `/manage/sysRoleMenu/menu/${userId}`,
+        url: `/xxx/${userId}`,
         method: 'post',
     });
 };

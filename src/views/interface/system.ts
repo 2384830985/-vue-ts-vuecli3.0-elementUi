@@ -6,7 +6,7 @@ import Http from '@/views/aixo/http';
  */
 export const sysMenuPage = (res: any) => { // 系统菜单|系统菜单列表
     return Http({
-        url: '/manage/sysMenu/page',
+        url: '/xxx/xxx/xxx',
         method: 'post',
         params: res,
     });
@@ -17,7 +17,7 @@ export const sysMenuPage = (res: any) => { // 系统菜单|系统菜单列表
  */
 export const sysUserPage = (res: any) => { // 用户菜单|用户管理列表
     return Http({
-        url: '/manage/sysUser/page',
+        url: '/xxx/xxx/xxx',
         method: 'post',
         params: res,
     });

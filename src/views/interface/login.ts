@@ -6,7 +6,7 @@ import Http from '@/views/aixo/http';
  */
 export const sysUserLogin = (res: any) => {
     return Http({
-        url: '/manage/sysUser/login',
+        url: 'xxx',
         method: 'post',
         params: res,
     });
