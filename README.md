@@ -3,7 +3,7 @@
 
 > 最近尝试了vue+ts的组合个人感觉vue对于ts并没有特别的像angular2这样的友好，但是对于ts和js之间个人还是选择ts的。语法糖来说es6简直舒爽，下面我详细介绍下怎么使用ts+vue。**（ts+vue的插件会少上很多，但是肯定会随着vue对ts的支持插件也会越来越多**
 
->判断是否可以使用ts+vue是否支持[链接](https://microsoft.github.io/TypeSearch/)[链接](https://2384830985.github.io/-vue-ts-vuecli3.0-elementUi/webApp/index.html#/system/permissionAdd)
+>判断是否可以使用ts+vue是否支持[链接](https://microsoft.github.io/TypeSearch/) 项目示例 [链接](https://2384830985.github.io/-vue-ts-vuecli3.0-elementUi/webApp/index.html#/system/permissionAdd)
 
 ## 1.VueCLI 3.0
 [VueCLI 3.0](https://cli.vuejs.org/zh/guide/)
