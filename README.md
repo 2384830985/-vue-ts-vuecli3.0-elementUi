@@ -1,6 +1,6 @@
 ## 前言
 
-最近尝试了vue+ts的组合个人感觉vue对于ts并没有特别的像angular2这样的友好，但是对于ts和js之间个人还是选择ts的。语法糖来说es6简直舒爽，下面我详细介绍下怎么使用ts+vue。ts+vue的插件会少上很多，但是肯定会随着vue对ts的支持插件也会越来越多[当前项目demo预览](https://2384830985.github.io/-vue-ts-vuecli3.0-elementUi/webApp/index.html#/system/permissionAdd)（作为一个菜鸡毕竟经历众多项目可以给一些新手一点提示 （QQ群技术讨论）838293023备注（github进来的
+最近尝试了vue+ts的组合个人感觉vue对于ts并没有特别的像angular2这样的友好，但是对于ts和js之间个人还是选择ts的。语法糖来说es6简直舒爽，下面我详细介绍下怎么使用ts+vue。ts+vue的插件会少上很多，但是肯定会随着vue对ts的支持插件也会越来越多[当前项目demo预览]
 
 > 游泳健身了解一下：[`github`](https://github.com/2384830985)[`JQ插件`](http://www.tangjinjinjinjin.xyz/) [`技术文档`](https://2384830985.github.io/zhantiefuzhi/public/) 技术文档会持续更新
 
